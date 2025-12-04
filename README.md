@@ -1,4 +1,4 @@
-#  Jogo da Velha Neon
+#  Jogo da Velha
 
 Um jogo da velha moderno com visual neon, desenvolvido com **HTML, CSS e JavaScript puro**.
 
