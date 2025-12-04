@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>JOGO DA <span class="neon">VELHA</span></h1>
+
+<div class="scoreboard">
+  <div>X: <span id="scoreX">0</span></div>
+  <div>O: <span id="scoreO">0</span></div>
+</div>
+
+<div class="modes">
+  <button id="pvp">2 Jogadores</button>
+  <button id="bot">Contra Robô 🤖</button>
+</div>
+
+<p id="turno">Vez de <span class="player">X</span></p>
+
+<div class="board" id="board"></div>
+
+<button id="reset">⟳ REINICIAR</button>
+<p class="hint">Clique em uma célula para jogar</p>
+
+<script src="script.js"></script>
+</body>
+</html>
